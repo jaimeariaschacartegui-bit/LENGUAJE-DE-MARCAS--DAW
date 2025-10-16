@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio blockquote</title>
+    <meta name="description" content="Esto es la descripción de mi página web">
+    <meta name="keywords" content="html, ejercicio, ejercicio1, ejemplo">
+    <meta name="author" content="jaimearias">
+    <meta name="application-name" content="Ejerciciobloquote.html">
+    <meta name="generator" content="VSCode">
+</head>
+<body>
+    <h1>Ejercicio para los que hemos venido  a clase</h1>
+    <p>Lorem ipsum dolor sit <acronym title="Esta es la definicion de la sigla WHC">WHC</acronym> amet consectetur adipisicing elit. Hic, nihil pariatur? Molestiae<dfn title= "Es la segunda definicion de la sigla HTML"> HTML</dfn>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, ullam aliquid consectetur aut <acronym title="Otro ejemplo">THC</acronym> soluta dicta labore voluptatum, rerum nulla officiis obcaecati. Delectus ipsam illo nulla distinctio sint quibusdam? Illum, quod?</p>
+        <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolorum iste, aperiam ni aspernatur nemo minima suscipit, odio ducimus soluta eum adipisci aliquid est tempora dicta ab mollitia veniam recusandae?</P>
+   <blockquote>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero explicabo ducimus qui pariatur labore soluta vel deleniti impedit asperiores maxime tempora nam autem, veritatis consequuntur distinctio suscipit quod eos! Consequatur.</blockquote>
+</body>
+</html>
