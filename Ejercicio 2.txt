@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h2><strong>Biografía de Timb Bermeers-Lee</strong></h2>
+<p><strong>Berneers lee</strong> trabajó en <strong>CERN</strong> desde junio hasta diciembre de 1980. Durante ese tiempo propuso un proecto basado en el <em>hipertexto</em> para facilitar la manera de compartir y la puesta al dia de la información entre investigadores. En este periodo también contruyó un programa llamado  <em><strong>ENQUIERE</strong></em> que no llegó a ver la luz.  </p>
+<p>Después de dejar el <strong>CERN</strong>, en 1980, se fue a trabajar en la empresa de <em>Jhon Poole Image Compuser System Lad.</em> , pero regresó a cern en 1984.</p>
+<h3></h3>
+<body>    
