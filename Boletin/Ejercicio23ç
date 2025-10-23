@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <blockquote><h1>Primera página</h1></blockquote><br>
+  <p>Enlace a la <a href="https://es.duolingo.com/">primera página</a></p>
+    <p>Enlace a la página de  <a href="https://es.wikipedia.org/wiki/Dark_web">Taller Tecno</a></p>
+      <p>Enlace a un <a href="https://tinder.com/es-ES">archivo PDF</a> de mi carpeta</p>
+
+</body>
+</html>
