@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<h1>REINO ANIMAL</h1>
+<blockquote>1.<a href="">Artópodos</a>
+<br>2.<a href="">Equinodermos</a>
+<br>3.<a href="">Moluscos</a>
+<br>4.<a href="">Esponjas</a>
+<br>5.<a href="">Nematodos</a>
+</blockquote>
+<h3>1. Artrópodos</h3>
+<p>Exosesqueleto de quinita y pastas articuladas.</p>
+<blockquote>Fotogrfía</blockquote>
+<h3>2. Equinodermos</h3>
+<p>Simetría pentarradiada, esqueleto externo de piezas calcáreas.</p>
+<blockquote>Fotogrfía</blockquote>
+<h3>3. Moluscos</h3>
+<p>Boca con rádula, pie muscular y anto alrededor de la concha.</p>
+<blockquote>Fotogrfía</blockquote>
+<h3>4. Esponjas</h3>
+<p>Parazoos; sin simetría definida; cuerpo perforado por poros inhalantes.</p>
+<blockquote>Fotogrfía</blockquote>
+<h3>5. Nematodos</h3>
+<p>Gusanos pseudoceloados de sección circular con cutícula quitinosa.</p>
+<blockquote>Fotogrfía</blockquote>
+</body>
+</html>
