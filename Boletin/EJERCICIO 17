@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>World Wide Web</title>
+</head>
+<body>
+  <h2>Salto de líneas con <<It>BR</It>></h2> <br>
+</body>
+</html>
+<p>Estaba innternándose en lo desconocido.<br/>
+    Todo el trayecto hasta Woodfield no dejó de pensar en los aspectos económicos, <br/>
+    con el temor de estar cometiendo...<br/>
+    ------------------------------------------------------------------------------------------------
+</p>
+<h2>Salto de Línea con <<It>P</It>> </h2><br>
+<p>Estaba internándose en lo desconocido</p><br>
+<p>Todo el trayecto hasta Woodfield no dejó de pensar en los aspectos económicos,<br/>con el temor de estar cometiendo...</p>
+
+

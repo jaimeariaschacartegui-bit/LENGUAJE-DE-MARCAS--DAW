@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,23 +10,115 @@
     <meta name="application-name" content="Plantilla.html">
     <meta name="generator" content="VSCode">
     <link rel="icon" sizes="64x64" href="./assets/icons/_fondo.jpg">
-</head>
-    <html>
-<head>
-<title>Ejemplo de texto estructurado con
-secciones</title>
+    <style>
+        /* Estilos mínimos para la barra de herramientas y paneles */
+        :root{font-family:system-ui,Segoe UI,Roboto,Arial, sans-serif;color:#222}
+        .toolbar{display:flex;gap:.5rem;padding:.6rem;background:#f3f4f6;border-bottom:1px solid #e5e7eb}
+        .toolbar button{background:#2563eb;color:#fff;border:none;padding:.45rem .75rem;border-radius:6px;cursor:pointer}
+        .toolbar button.secondary{background:#6b7280}
+        main{padding:1rem}
+        #panel{padding:1rem;border-top:1px solid #e5e7eb;background:#fff}
+        pre{background:#0b1220;color:#e6eef8;padding:1rem;border-radius:6px;overflow:auto}
+        #preview{width:100%;height:60vh;border:1px solid #e5e7eb;margin-top:.75rem}
+        @media (max-width:600px){#preview{height:40vh}}
+    </style>
 </head>
 <body>
-<h*6></h>
-<h1>Titulo nivel 1</h1>
-<h2>Titulo nivel 2</h2>
-<h3>Titulo nivel 3</h3>
-<h4>Titulo nivel 4</h4>
-<h5>Titulo nivel 5</h5>
-<h6>Titulo nivel 6</h6>
-</body>
-</html>
-<body>
-    
+    <div class="toolbar" role="toolbar" aria-label="Herramientas de plantilla">
+        <button id="btnToggleCode">Ver programa</button>
+        <button id="btnPreview" class="secondary">Abrir vista previa en ventana nueva</button>
+        <button id="btnToggleIframe" class="secondary">Mostrar/Ocultar vista previa embebida</button>
+    </div>
+
+    <main id="content">
+        <!-- Contenido de la plantilla: ejemplos de títulos -->
+        <h1>Título nivel 1</h1>
+        <h2>Título nivel 2</h2>
+        <h3>Título nivel 3</h3>
+        <h4>Título nivel 4</h4>
+        <h5>Título nivel 5</h5>
+        <h6>Título nivel 6</h6>
+        <p>Este es un párrafo de ejemplo en la plantilla. Usa los botones arriba para ver el código fuente o abrir la vista previa.</p>
+    </main>
+
+    <section id="panel" hidden>
+        <h2>Fuente (HTML)</h2>
+        <p>El panel muestra el HTML de la sección principal (<code>&lt;main id="content"&gt;</code>). Puedes copiarlo o abrir la vista previa.</p>
+        <pre><code id="source" aria-live="polite"></code></pre>
+    </section>
+
+    <iframe id="preview" title="Vista previa embebida" style="display:none"></iframe>
+
+    <script>
+        // Preparar el HTML completo que se usará para la vista previa
+        function buildFullHTML(){
+            const head = document.head.cloneNode(true);
+            // Limpiar scripts y controles del head para seguridad en la vista previa
+            head.querySelectorAll('script, style[media], link[rel="import"]').forEach(n=>n.remove());
+            const content = document.getElementById('content').innerHTML;
+            const full = `<!doctype html>\n<html lang="es">\n<head>\n<meta charset="utf-8">\n<meta name="viewport" content="width=device-width,initial-scale=1">\n<title>Vista previa - Plantilla</title>\n</head>\n<body>\n${content}\n</body>\n</html>`;
+            return full;
+        }
+
+        const btnToggle = document.getElementById('btnToggleCode');
+        const btnPreview = document.getElementById('btnPreview');
+        const btnToggleIframe = document.getElementById('btnToggleIframe');
+        const panel = document.getElementById('panel');
+        const source = document.getElementById('source');
+        const preview = document.getElementById('preview');
+
+        // Rellena el panel con el HTML que representa la sección principal
+        function refreshSource(){
+            const html = buildFullHTML();
+            // Mostrar con entity escaping para que se vea como código
+            source.textContent = html;
+        }
+
+        btnToggle.addEventListener('click', ()=>{
+            if(panel.hasAttribute('hidden')){
+                refreshSource();
+                panel.removeAttribute('hidden');
+                panel.scrollIntoView({behavior:'smooth'});
+                btnToggle.textContent = 'Ocultar programa';
+            } else {
+                panel.setAttribute('hidden','');
+                btnToggle.textContent = 'Ver programa';
+            }
+        });
+
+        btnPreview.addEventListener('click', ()=>{
+            const html = buildFullHTML();
+            const w = window.open();
+            if(!w){
+                alert('No se pudo abrir la ventana nueva. Revisa el bloqueador de pop-ups.');
+                return;
+            }
+            w.document.open();
+            w.document.write(html);
+            w.document.close();
+        });
+
+        btnToggleIframe.addEventListener('click', ()=>{
+            if(preview.style.display === 'none'){
+                const html = buildFullHTML();
+                preview.style.display = 'block';
+                // Usar srcdoc si está soportado
+                try{ preview.srcdoc = html; } catch(e){
+                    // fallback: write into iframe
+                    preview.contentWindow.document.open();
+                    preview.contentWindow.document.write(html);
+                    preview.contentWindow.document.close();
+                }
+                btnToggleIframe.textContent = 'Ocultar vista previa embebida';
+                preview.scrollIntoView({behavior:'smooth'});
+            } else {
+                preview.style.display = 'none';
+                btnToggleIframe.textContent = 'Mostrar/Ocultar vista previa embebida';
+            }
+        });
+
+        // Inicializar contenido de código (no visible hasta que el usuario lo pida)
+        refreshSource();
+    </script>
 </body>
 </html>

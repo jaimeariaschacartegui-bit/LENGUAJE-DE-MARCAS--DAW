@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h2><strong>Biografía de Timb Bermeers-Lee</strong></h2>
+<p><strong>Berneers lee</strong> trabajó en <strong>CERN</strong> desde junio hasta diciembre de 1980. Durante ese tiempo propuso un proecto basado en el <em>hipertexto</em> para facilitar la manera de compartir y la puesta al dia de la información entre investigadores. En este periodo también contruyó un programa llamado  <em><strong>ENQUIERE</strong></em> que no llegó a ver la luz.  </p>
+<p>Después de dejar el <strong>CERN</strong>, en 1980, se fue a trabajar en la empresa de <em>Jhon Poole Image Compuser System Lad.</em> , pero regresó a CERN en 1984.</p>
+<h3><strong>El nacimiento de la web</strong></h3>
+<p>En 1989, el CERN era el nodo de Internet más grande de Europa y Berners-Lee vio la oportunidad de unir Internet y el hipertexto (<b>HTTP</b> y <b>HTML</b>), de lo que surgiría la <b>World Wide Web.</b></p>
+<p>Desarrolló su primera propuesta de la Web el 12 de Marzo de 1989, 2 pero no tuvo mucho eco, por lo que en 1990 y con la ayuda de <em>Robert Cailliau</em>, hicieron una revisión que fue aceptada por su gerente, <em>Mike Sendall.</em></p>
+<blockquote>Usó ideas similares a las que había usado en sistema <em>Enquire</em>, para crear la <b>World Wide Web</b>, para esto diseñó y construyó el primer navegador (llamado WorldWideWeb y desarrollado con NEXTSTEP) y el primer servidor Web al que llamó httpd (HyperText Treansfer Protocol daemon).</blockquote>
+<h3><b>La democratización de la web</b></h3>
+<p><b>El primer servidor Web</b> se encontraba en el CERN y fue puesto en línea el 6 de agosto de 1991.Esto proporcionó una explicación sobre lo que era World Wide Web, cómo uno podría tener un navegador y cómo establecer un servidor Web. Este fue también el primer directorio Web del mundo, ya que Berners-Lee mantuvo una lista de otros sitios Web aparte del suyo. </p>
+<p>Debido a que tanto <b>el software como el cliente de forma gratuita</b>desde CERN. el corazón de Internet Europeo en esa Época , su difusión fue muy rápida. El número de servidores Web pasó de veintiséis en 1992 a doscientos en octubre de 1995 lo que refleja cual fue la velocidad de la difusión de internet.</p>
+<h3><b>El nacimiento del W3C</b></h3>
+<p>En 1994 entró en el <em>Laboratorio de Ciencia de la Computación e Inteligencia Artificial del Massachusetts Institute of Technology.</em>Se trasladó a EE.UU. y puso en marcha el <b>W3C</b>, que dirige actualmente.</p>
+<blockquote>El <b>W3C</b>es un organismo internacional de estandarización de tecnologías de Web dirigido conjuntamente por el <em>Instituto de Massachussets,</em>el <em>ERICM</em> francés t la <em>Universidad de Keió</em> en Japón. Este organismo decidió que todos sus estándares fuesen libres, es decir, que lo pudiese utilizar todo el mundo libremente sin coste alguno, lo que sin lugar a dudas fue una de las grandes razones para que la Web haya llegado a tener la importancia que tiene hoy en día.</blockquote>
+<p>En su libro <em>Tejiendo la Red </em>, publicado en 1999, Bermeers-Lee explica por qué <b>la tecnología web es libre y gratis. Se considera al mismo tiempo el inventor y el protector de la web.</b></p>
+<body>    

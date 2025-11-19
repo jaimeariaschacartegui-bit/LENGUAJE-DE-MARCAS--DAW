@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+ <h1>Esto es un ejempld de correo electronico</h1>
+ <a href="mailto:jaimeariaschacartegui@gmail.com?subject=Ejemplo%20de%20correo%20electronico&body=Hola%20Jaime,%0A%0AEste%20es%20un%20ejemplo%20de%20correo%20electronico.%0A%0ASaludos,">Enviar correo a Jaime</a>"
+
+
+</body>
+</html>

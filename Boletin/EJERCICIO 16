@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>World Wide Web</title>
+</head>
+<body>
+  <h1>EJERCICIO 16</h1>
+</body>
+</html>
+<P>Párrafo con &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 espacios seguidos.</P>
+<p>Párrafo con</p><br>
+<p>3 retornos de carro.</p>
+<p>Párrafo con &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2 tabulaciones</p>
