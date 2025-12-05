@@ -1,26 +1,65 @@
 <html>
     <head>
-        <title>formulario</title>
+        <title>tuenti</title>
     </head>
-<body>
+<body style="background-color: rgb(36, 119, 196);">
+  <img src="../assets/img/tuentaso.png" alt="" width="30%" > 
+  <div class="cuerpo">
+    <div class="formulario">
+        <br>
+        <span style="margin:px ;">
+        <span style="font-size: 20px;"><b>Únete a tuenti</b></span> <input type="text"  style="border: none; width: 70%;" placeholder="Todos los campos son obligatorios">
+        <br>
+        <blockquote>
+        <span style="margin:px ;">
+        Nombre <input type="text" placeholder="Nombre"> <input type="text" placeholder="Apellidos">
+        <br><br>
+        <span style="margin:x ;"></span>
+        Email &nbsp;<input type="text">
+        </span>
+        <br><br>
+         <span style="margin: px;"></span>
+         Sexo
+        <span style="margin: ;"></span>
+        <input type="radio" name="sexo" value="hombre">hombre
+        <input type="radio" name="sexo" value="mujer">mujer
+        <br><br>
+        Fecha de Nacimiento
+        <span style="margin:10px ;">
+        <select name="Dia" id="Dia">
+            <option value="España">Día</option>
+        </select>
+        <select name="Mes" id="Mes">
+            <option value="Mes">Mes</option>
+        </select>
+        <select name="año" id="año">
+            <option value="año">Año</option>
+        </select>
+        <br>
+        <input placeholder="La edad mínima permitida es 14" style="border: none; width: 70%;margin-left: 50%; font-size: 9px;">
+        <br><br>
+        Contraseña <input type="password">
+        </blockquote>
+        </span>
+    </div> 
+
     
-<form action="https://www.airbnb.es/">
-    Introduce tu nombre:
-<input type="text">
-<input type="submit" value="Enviar" >
+  </div>
 
-
-
-
-
-
-
-
-
-
-
-
+ 
     
-</form>
+<style>
+.cuerpo{
+    background-color: white;
+    border-radius: 3px;
+    width: 100%;
+    height: 90%;
+    
+}
+.formulario{
+    margin: 40px;
+    text-align: center
+}
+</style>
 </body>
 </html>
