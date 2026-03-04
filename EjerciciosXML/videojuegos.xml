@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+
+    
+    <videojuego1>
+        <titulo>El del Ring</titulo>
+        <genero>Deportes</genero>
+        <año>2022</año>
+        <precio>59,99$</precio>
+        <codigo>VID001</codigo>
+    </videojuego1>
+
+     <videojuego2>
+        <titulo>Fifa 24</titulo>
+        <genero>Deportes</genero>
+        <año>2024</año>
+        <precio>69,99$</precio>
+        <codigo>VID002</codigo>
+    </videojuego2>
+
+     <videojuego3>
+        <titulo>Minecraft</titulo>
+        <genero>Aventura</genero>
+        <año>2011</año>
+        <precio>29,99$</precio>
+        <codigo>VID003</codigo>
+    </videojuego3>
+
+    
+</catalogo>
+    

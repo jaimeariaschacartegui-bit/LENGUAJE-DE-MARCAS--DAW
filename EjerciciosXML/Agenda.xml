@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>
+    
+    <cliente1>
+        <nombre>Laura Martín Ruiz</nombre>
+        <numero>648325544</numero>
+        <direccion>
+            <ciuddad>cádiz</ciuddad>
+            <codigoPostal>11500</codigoPostal>
+        </direccion>
+        <mail>laura@gmail.com</mail>
+    </cliente1>
+
+    <cliente2>
+        <nombre>Sergio López Díaz</nombre>
+        <numero>678945321</numero>
+         <direccion>
+            <ciuddad>cádiz</ciuddad>
+            <codigoPostal>11500</codigoPostal>
+        </direccion>
+        <mail>sergio@gmail.com</mail>
+    </cliente2>
+
+    <cliente3>
+        <nombre>Marta Sánchez Gil</nombre>
+        <numero>678945321</numero>
+         <direccion>
+            <ciuddad>cádiz</ciuddad>
+            <codigoPostal>11500</codigoPostal>
+        </direccion>
+        <mail>marta@gmail.com</mail>
+    </cliente3>
+
+</agenda>

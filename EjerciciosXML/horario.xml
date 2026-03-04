@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horario>
+    <dia>
+        <lunes>
+            <primerahora>Programación, 08:15-09:15</primerahora>
+            <segundahora>Base de Datos, 09:15-10:15</segundahora>
+        </lunes>
+
+        <martes>
+            <primerahora>Lenguaje de marcas, 08:15-09:15</primerahora>
+            <segundahora>Sistemas informáticos, 09:15-10:15</segundahora>
+        </martes>
+    </dia>
+</horario>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fichapersonal>
+   
+        <nombre>Carlos</nombre>
+        <apellido>Pérez Gómez</apellido>
+        <curso>1º DAW</curso>
+        <edad>20</edad>
+        <e-mail>carlos.perez@gmail.com</e-mail>
+        <teléfono>66244423</teléfono>
+    
+</fichapersonal>

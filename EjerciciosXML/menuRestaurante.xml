@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menuRestaurante>
+    <Entrantes>
+
+        <entrante1 disponible="true">
+        <nombre>Ensalada César</nombre>
+        <precio>8,50€</precio>
+        <descripcion>Lechuga, pollo a la plancha, croutons y salsa César</descripcion>
+        </entrante1>
+
+        <entrante2 disponible="true">
+            <nombre>Croquetas</nombre>
+            <precio>7,00€</precio>
+            <descripcion>Croquetas con relleno de puchero de ayer</descripcion>
+        </entrante2>
+        
+
+    </Entrantes>
+
+    <PlatosPrincipales>
+
+        <principal1 disponible="false">
+            <nombre>Entrecot</nombre>
+            <precio>18,50€</precio>
+            <descripcion>Carne cazada por el campurro de antonio josé marcelo </descripcion>
+        </principal1>
+
+        <principal2 disponible="false">
+            <nombre>Salmón</nombre>
+            <precio>16,00€</precio>
+            <descripcion>Pieza de salmón a la plancha con verduras</descripcion>
+        </principal2>
+
+    </PlatosPrincipales>
+
+    <Postres>
+        <postre1 disponible="true">
+            <nombre>tarta de queso</nombre>
+            <precio>5,50€</precio>
+            <descripcion>Tarta de queso con salsa de frutas</descripcion>
+        </postre1>
+
+        <postre2 disponible="true">
+            <nombre>Flan</nombre>
+            <precio>4,00€</precio>
+            <descripcion>Flan con caramelo y nata</descripcion>
+        </postre2>
+        
+    </Postres>
+
+</menuRestaurante>
