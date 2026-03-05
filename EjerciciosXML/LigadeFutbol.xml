@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ligafutbol>
+    <equipos>
+        <E1>Real Madrid</E1>
+        <E2>Barcelona</E2>
+    </equipos>
+    <Jugadores>
+
+        <E1>
+            <J1>Vinicius</J1>
+        </E1>
+
+        <E2>
+            <J2>Lewandoski</J2>
+        </E2>
+
+    </Jugadores>
+    <partidos>
+        <P1>
+            <E1>Real Madrid</E1>
+            <E2>Barcelona</E2>
+            <resultado>2-1</resultado>
+        </P1>
+        <goles>
+
+            <Gol1>
+                <J1>minuto 15</J1>
+            </Gol1>
+
+            <Gol2>
+                <J2>minuto 40</J2>
+            </Gol2>
+            
+            <Gol3>
+                <J1>minuto 70</J1>
+            </Gol3>
+
+            <GolesTotales>
+                <J1>2</J1>
+                <J2>1</J2>
+            </GolesTotales>
+
+
+        </goles>
+    </partidos>
+
+</ligafutbol>
