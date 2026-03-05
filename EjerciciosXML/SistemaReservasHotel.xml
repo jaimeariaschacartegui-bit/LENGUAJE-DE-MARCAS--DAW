@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hoteles>
+    <nombresHotel>
+        <H1>Hotel sol</H1>
+        <H2>Hotel Playa</H2>
+    </nombresHotel>
+
+    <ubicaciones>
+        <H1>Madrid</H1>
+        <H2>Valencia</H2>
+    </ubicaciones>
+
+    <Habitaciones>
+        <H1>
+            <Habitacion101>
+                <tipo>Individual</tipo>
+                <precio>80 euros</precio>
+            </Habitacion101>
+
+            <Habitacion102>
+                <tipo>Doble</tipo>
+                <precio>120 euros</precio>
+            </Habitacion102> 
+        </H1>
+
+        <H2>
+            <Habitacion201>
+                <tipo>Suite</tipo>
+                <precio>200 euros</precio>
+            </Habitacion201>
+        </H2>
+        
+    </Habitaciones>
+
+    <clientes>
+        <C1>Roberto Díaz</C1>
+        <C2>Sara Molina</C2>
+    </clientes>
+
+    <Reservas>
+        
+        <R1>
+            <C1>
+                <Habitacion101>
+                    <fecha>2024-12-01 hasta el 2024-12-05</fecha>
+                </Habitacion101>
+            </C1>
+        </R1>
+
+        <R2>
+            <C2>
+                <Habitacion201>
+                    <fecha>2024-12-10 hasta el 2024-12-12</fecha>
+                </Habitacion201>
+            </C2>
+        </R2>
+
+    </Reservas>
+</Hoteles>

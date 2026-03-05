@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instituto>
+
+    <Alumnos>
+        <A1>
+            <nombre>Pablo García </nombre>
+            <edad>20</edad>
+        </A1>
+
+        <A2>
+            <nombre>lucía Fernández</nombre>
+            <edad>19</edad>
+        </A2>
+    </Alumnos>
+
+    <matriculas>
+        <A1>Programación, Base de Datos</A1>
+        <A2>Programación, Base de datos</A2>
+    </matriculas>
+
+</instituto>

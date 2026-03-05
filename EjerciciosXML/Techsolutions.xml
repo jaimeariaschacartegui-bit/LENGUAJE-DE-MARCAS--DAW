@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empresa>
+
+    <techsolutions>
+
+        <departamentos>
+
+            <desarrollo>
+
+                <nombre>Ana Torres</nombre>
+                <salarioAnual>28000</salarioAnual>
+                <fecha>2022/03/15</fecha>
+
+                <nombre>Luis Romero</nombre>
+                <salarioAnual>30000</salarioAnual>
+                <fecha>2021/06/01</fecha>
+                <especialidad>Backend</especialidad>
+
+            </desarrollo>
+            
+            <marketing>
+
+                <nombre>Elena ruiz</nombre>
+                <salarioAnual>24000</salarioAnual>
+                <fecha>2023/01/10</fecha>
+                <especialidad>Comunity Manager</especialidad>
+
+            </marketing>
+
+        </departamentos>
+
+    </techsolutions>
+
+</empresa>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+
+    <P1001>
+        <cliente>Javier López</cliente>
+        <fecha>2024-11-01</fecha>
+    </P1001>
+
+    <P1002>
+        <cliente>María Gil</cliente>
+        <fecha>2024-11-03</fecha>
+    </P1002>
+    <productos>
+
+        <P1001>
+            <teclado>2 unidades</teclado>
+            <precio>5 euros</precio>
+            <Raton>1 ud</Raton>
+            <precio>15 euro</precio>
+        </P1001>
+
+        <P1002>
+            <Monitor>1 unidad</Monitor>
+            <precio>199 euros</precio>
+        </P1002>
+
+    </productos>
+
+    <PFinal>
+        <totalApagar>239</totalApagar>
+    </PFinal>
+
+</pedidos>
