@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<academia>
+
+    <profesores>
+        <profesor id="P1">
+            <nombre>Antonio Ruiz</nombre>
+            <asignatura>Programación</asignatura>
+        </profesor>
+
+        <profesor id="P2">
+            <nombre>Marta Gil</nombre>
+            <asignatura>Bases de Datos</asignatura>
+        </profesor>
+    </profesores>
+
+    <cursos>
+        <curso id="C1">1DAW</curso>
+        <curso id="C2">2DAW</curso>
+    </cursos>
+
+    <alumnos>
+        <alumno id="A1">
+            <nombre>Daniel</nombre>
+            <curso idCurso="C1"/>
+        </alumno>
+
+        <alumno id="A2">
+            <nombre>Clara</nombre>
+            <curso idCurso="C2"/>
+        </alumno>
+    </alumnos>
+
+    <notas>
+        <nota>
+            <idAlumno>A1</idAlumno>
+            <idProfesor>P1</idProfesor>
+            <calificacion>8</calificacion>
+        </nota>
+
+        <nota>
+            <idAlumno>A1</idAlumno>
+            <idProfesor>P2</idProfesor>
+            <calificacion>7</calificacion>
+        </nota>
+
+        <nota>
+            <idAlumno>A2</idAlumno>
+            <idProfesor>P1</idProfesor>
+            <calificacion>9</calificacion>
+        </nota>
+    </notas>
+
+</academia>

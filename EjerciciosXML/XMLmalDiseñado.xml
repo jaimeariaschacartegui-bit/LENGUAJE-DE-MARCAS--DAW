@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datos>
+    <alumno>
+        <nombre>Pablo</nombre>
+        <edad>20</edad>
+        <asignaturas>
+            <asignatura>Programación</asignatura>
+            <asignatura>Bases de Datos</asignatura>
+        </asignaturas>
+    </alumno>
+
+    <alumno>
+        <nombre>Lucía</nombre>
+        <edad>19</edad>
+        <asignaturas>
+            <asignatura>Programación</asignatura>
+        </asignaturas>
+    </alumno>
+</datos>
